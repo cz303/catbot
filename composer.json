@@ -1,0 +1,23 @@
+{
+  "name": "omgkotofey/omgcatbot",
+  "description": "Simple Telegram bot application for various free crypto-tokens earning campaigns",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "omgkotofey",
+      "email": "omgkotofey@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
+  "require": {
+    "php":">=7.3.0",
+    "ext-pdo": "*",
+    "longman/telegram-bot": "*"
+  }
+}
