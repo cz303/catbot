@@ -4,20 +4,20 @@ return [
 	/**
 	 * Bot's API token
 	 */
-	'bot_token' => '111111111:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
+	'bot_token' => '659414060:AAFwq-ZT-IJVkGGS78o4N4NFfw_1BkMIU5Q',
 	/**
 	 * Bot's username without @ symbol
 	 */
-	'bot_username' => 'example_bot',
+	'bot_username' => 'OnionShopTestBot',
 	/**
 	 * Bot's extended name/title
 	 */
-	'bot_title' => 'example airdrop bot',
+	'bot_title' => 'Service Onion Bot',
 	/**
 	 * Array of users which will have admin access to bot's private chat
 	 */
 	'bot_admins' =>[
-		000000000,
+		677805757,
 		123456789
 	],
 	/**
