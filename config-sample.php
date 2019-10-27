@@ -27,13 +27,17 @@ return [
 	/**
 	 * MySQL database credentials. Always necessary.
 	 */
-	'db' => [
-		'host'     => 'localhost',
-		'port'     => 3306,
-		'user'     => 'example_user',
-		'password' => 'example_password',
-		'database' => 'example_database',
-	],
+	$url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $server = $url["eu-cdbr-west-02.cleardb.net"];
+    $username = $url["b3e1f6c61fb97a"];
+    $password = $url["4772233f"];
+    $db = substr($url["heroku_ae136c72ff82682"],1);
+
+    mysqli_connect($server, $username, $password);
+
+
+    mysqli_select_db($db);,
 	/**
 	 * Enable or disable logs (/app/logs dir needs to be at least 755 accesses)
 	 */
